@@ -13,6 +13,8 @@
 		1B23B6C81B49B03A002676A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B6C71B49B03A002676A1 /* Images.xcassets */; };
 		1B23B6CB1B49B03A002676A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B23B6C91B49B03A002676A1 /* LaunchScreen.xib */; };
 		1B23B6D71B49B03B002676A1 /* windowSubclassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B6D61B49B03B002676A1 /* windowSubclassTests.swift */; };
+		1B23B6E11B49B058002676A1 /* touchShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B6E01B49B058002676A1 /* touchShow.swift */; };
+		1B23B6E31B49B62B002676A1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B23B6E21B49B62B002676A1 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		1B23B6D01B49B03B002676A1 /* windowSubclassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windowSubclassTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B23B6D51B49B03B002676A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B23B6D61B49B03B002676A1 /* windowSubclassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = windowSubclassTests.swift; sourceTree = "<group>"; };
+		1B23B6E01B49B058002676A1 /* touchShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = touchShow.swift; sourceTree = "<group>"; };
+		1B23B6E21B49B62B002676A1 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				1B23B6C01B49B03A002676A1 /* AppDelegate.swift */,
+				1B23B6E21B49B62B002676A1 /* main.swift */,
 				1B23B6C21B49B03A002676A1 /* ViewController.swift */,
 				1B23B6C41B49B03A002676A1 /* Main.storyboard */,
 				1B23B6C71B49B03A002676A1 /* Images.xcassets */,
 				1B23B6C91B49B03A002676A1 /* LaunchScreen.xib */,
 				1B23B6BE1B49B03A002676A1 /* Supporting Files */,
+				1B23B6E01B49B058002676A1 /* touchShow.swift */,
 			);
 			path = windowSubclass;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B23B6C31B49B03A002676A1 /* ViewController.swift in Sources */,
+				1B23B6E11B49B058002676A1 /* touchShow.swift in Sources */,
+				1B23B6E31B49B62B002676A1 /* main.swift in Sources */,
 				1B23B6C11B49B03A002676A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
